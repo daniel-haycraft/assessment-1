@@ -57,8 +57,8 @@ let gitStatusDefinition = "i use status to make sure my repo init and i have a w
 */
 
 //CODE HERE
-let gitAddCode = "after git init you do git add . which sets up and adds all files once commited"
-git gitAddCode = "add . 'then' git commit -m 'final project'"
+let gitAddDefinition = "after git init you do git add . which sets up and adds all files once commited"
+let gitAddCode = "add . 'then' git commit -m 'final project'"
 //////////////////PROBLEM 7////////////////////
 /*
     Create a variable called 'gitCommitDefinition'.  
