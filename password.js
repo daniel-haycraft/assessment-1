@@ -1,7 +1,9 @@
-let password = "Csaldddd21"
+let password = "Csaldddd21!"
+const specialChars = /[`!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?~]/
 
-if (password.length >= 20 || password.length < 10) {
-    console.log("too long, no more than 20 characters and no less than 10")
+
+if (password.length >= 20 || password.length < 10 || specialChars.test(password)===false) {
+    console.log("password incorrect")
 }else if ((/[0-9]/.test(password)) && /[A-Z]/.test(password) && /[a-z]/.test(password)){
     console.log("password is correct today...")
 }else{
