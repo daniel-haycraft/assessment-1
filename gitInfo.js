@@ -10,7 +10,7 @@
 */
 //CODE HERE
 
-let gitDefinition = "git is a useful to to help you keep track of your code through websites like github"
+let gitDefinition = "git is a useful to to help you keep track of your code and code changes"
 
 
 //////////////////PROBLEM 2////////////////////
@@ -20,7 +20,7 @@ let gitDefinition = "git is a useful to to help you keep track of your code thro
 */
 
 //CODE HERE
-let gitHubDefinition = "one of the easiest ways to collab with programmers and store your code"
+let gitHubDefinition = "one of the easiest ways to collab with programmers, track bugs, task management and public place to store your valuable code"
 //////////////////PROBLEM 3////////////////////
 /*
     Create a variable called 'gitInitDefinition'.  
@@ -28,7 +28,7 @@ let gitHubDefinition = "one of the easiest ways to collab with programmers and s
 */
 
 //CODE HERE
-let gitInitDefinition = "initializes a repository which stores your code and helps you connect it with cites like github"
+let gitInitDefinition = "initializes a repository or reinitializes one"
 //////////////////PROBLEM 4////////////////////
 /*
     Create a variable called 'gitCloneDefinition'.  
@@ -36,7 +36,7 @@ let gitInitDefinition = "initializes a repository which stores your code and hel
 */
 
 //CODE HERE
-let gitCloneDefinition = "cloning a repository would be cloning your code in to a fresh repo, sure its nice to see your past code but final projects need to be backed up"
+let gitCloneDefinition = "cloning a repository would be cloning your code to a certain folder or in your same project folder"
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -57,7 +57,7 @@ let gitStatusDefinition = "i use status to make sure my repo init and i have a w
 */
 
 //CODE HERE
-let gitAddDefinition = "after git init you do git add . which sets up and adds all files once commited"
+let gitAddDefinition = "after git init you do git add . which adds the whole directory changes to staging meaning no deleted files."
 let gitAddCode = "add . 'then' git commit -m 'final project'"
 //////////////////PROBLEM 7////////////////////
 /*
@@ -69,8 +69,8 @@ let gitAddCode = "add . 'then' git commit -m 'final project'"
 */
 
 //CODE HERE
-let gitCommitDefinition = "git commit gets it done, kinda like the init and add . were just pre steps to make sure you aren't adding anything you don't want to. so once you commit you have a git repo thats ready to be added to github and saved to locally"
-let gitCommitCode = "git commit -m 'words'"
+let gitCommitDefinition = "first point in git your git history that hold the code and changes to it"
+let gitCommitCode = `git commit -m 'words' or git commit -am 'words'`
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -79,4 +79,4 @@ let gitCommitCode = "git commit -m 'words'"
 */
 
 //CODE HERE
-let gitPushDefinition = "it helps you go from local to remote repo "
+let gitPushDefinition = "push changes after committing them "
